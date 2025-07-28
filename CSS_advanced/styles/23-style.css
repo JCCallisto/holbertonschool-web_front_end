@@ -536,6 +536,19 @@ ul.row {
     background: var(--color-black);
 }
 
+/* Fixes for dark theme */
+.footer-address {
+    color: var(--text-color);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link svg {
+    fill: var(--text-color);
+}
+
 .container {
     width: 960px;
     margin-left: auto;
@@ -549,19 +562,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
     padding: var(--footer-padding);
-}
-
-/* Dark theme fixes
-   ========================================================================== */
-
-.footer-address {
-    color: var(--text-color);
-}
-
-.social-link {
-    display: block;
-}
-
-.social-link svg {
-    fill: var(--text-color);
 }
